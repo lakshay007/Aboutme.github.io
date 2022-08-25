@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!---<div class="navbar">
@@ -33,18 +34,22 @@
     </div>
 <!--------about---------------->   
 <div class="about">
-    <h1 id="hello">About <span>me</span></h1>
+    <h1 id="hello" data-aos="fade-right">About <span>me</span></h1>
     <div class="aboutmeimage">
         <img class="aboutimg" src="about.gif">
     </div>
     <div class="aboutmetext">
-        <h2>Hey there!</h2>
-        <h3>I am <span>Lakshay Chauhan</span>, currently studying computer enginnering.<br/>
+        <h2 data-aos="flip-up">Hey there! </h2>
+        <h3 data-aos="flip-up">I am <span>Lakshay Chauhan</span>, currently studying computer enginnering.<br/>
         I like to build stuff, from web development to <span2>robotics and machine learning</span2>, <br/>I want to explore it all.</h3>
     </div>
     
 </div> 
-<script src='script.js'></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 
 </body>
 </html>
