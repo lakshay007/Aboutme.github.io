@@ -1,200 +1,227 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 body {
-    width: 100%;
-    background-color: black;
-  }
-  html {
-    scroll-behavior: smooth;
-   }
-.navbar{
-  z-index: 9999;
-  position: absolute;
-  width: fit-content;
+  width: 100%;
   background-color: black;
+}
+html {
+  scroll-behavior: smooth;
+ }
+.navbar{
+z-index: 9999;
+position: absolute;
+width: fit-content;
+background-color: black;
 background: fixed;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 45px;
-  padding-left: 36%;
-  padding-right: 8%;
+align-items: center;
+justify-content: space-between;
+padding-top: 45px;
+padding-left: 36%;
+padding-right: 8%;
 
 }
 .navbar.sticky{
-  padding: 30px 0;
-  color: #212121;
+padding: 30px 0;
+color: #212121;
 }
 .scroll-down {
-  opacity: 1;
-  -webkit-transition: all .5s ease-in 3s;
-  transition: all .5s ease-in 3s;
+opacity: 1;
+-webkit-transition: all .5s ease-in 3s;
+transition: all .5s ease-in 3s;
 }
 
 .scroll-down {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  margin-left: -16px;
-  display: block;
-  width: 32px;
-  height: 32px;
-  border: 2px solid #FFF;
-  background-size: 14px auto;
-  border-radius: 50%;
-  z-index: 2;
-  -webkit-animation: bounce 2s infinite 2s;
-  animation: bounce 2s infinite 2s;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+position: absolute;
+bottom: 30px;
+left: 50%;
+margin-left: -16px;
+display: block;
+width: 32px;
+height: 32px;
+border: 2px solid #FFF;
+background-size: 14px auto;
+border-radius: 50%;
+z-index: 2;
+-webkit-animation: bounce 2s infinite 2s;
+animation: bounce 2s infinite 2s;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
 }
 
 .scroll-down:before {
-  
-    position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 6px);
-    transform: rotate(-45deg);
-    display: block;
-    width: 12px;
-    height: 12px;
-    content: "";
-    border: 2px solid white;
-    border-width: 0px 0 2px 2px;
+
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
 }
 
 
 @keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
+0%,
+100%,
+20%,
+50%,
+80% {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+40% {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+60% {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
 }
 .navbar  ul li{
-  list-style-type: none;
-  display: inline-block;
-  padding: 20px 40px;
+list-style-type: none;
+display: inline-block;
+padding: 20px 40px;
 }
 .navbar ul li a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: capitalize;
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
 }
 .navbar ul li a:hover{
-  color: orange;
+color: orange;
 }
 
 
 nav{
-    display: flex;
-    width: 84%;
-    margin: auto;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
 .intro{
-    position: absolute;
-    width: fit-content;
-    margin-left: 7%;
-    margin-top: 15%;
+  position: absolute;
+  width: fit-content;
+  margin-left: 7%;
+  margin-top: 15%;
 }
 
 
 .intro h1{
 
-    color: orange;
-    font-size: 80px;
-        overflow: hidden;
-        border-right: .15em solid orange; 
-        white-space: nowrap; 
-        margin: 0 auto; 
-        letter-spacing: .15em; 
-        animation: 
-          typing 4s steps(40, end),
-          blink-caret .75s step-end infinite;
-          
-      }
-      
-      
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-
-      }
-      
-      
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: orange; }
-      
-      
+  color: orange;
+  font-size: 80px;
+      overflow: hidden;
+      border-right: .15em solid orange; 
+      white-space: nowrap; 
+      margin: 0 auto; 
+      letter-spacing: .15em; 
+      animation: 
+        typing 4s steps(40, end),
+        blink-caret .75s step-end infinite;
+        
+    }
     
+    
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+
+    }
+    
+    
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    
+    
+  
 }
 .intro h1 span{
-    color: white;
-    
+  color: white;
+  
 }
 .intro h1 span2{
-    font-size: xx-large;
+  font-size: xx-large;
 }
 .intro h2{
-    color: bisque;
+  color: bisque;
 
-  animation: 3s fadeIn;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-  
-  visibility: hidden;
+animation: 3s fadeIn;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+
+visibility: hidden;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
 }
 
 .intro p{
-    
-    color: bisque;
-    line-height: 22px;
+  
+  color: bisque;
+  line-height: 22px;
 }
 
 .intro a{
-    background: #212121;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-    animation: 3s fadeIn;
-  animation-delay: 3.7s;
+  z-index: 9999;
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  animation: 3s fadeIn;
+animation-delay: 3.7s;
+animation-fill-mode: forwards;
+
+visibility: hidden;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.intro p{
+  
+  color: bisque;
+  line-height: 22px;
+}
+.manwaving{
+  border-radius: 50%;
+  top: 200px;
+  right: 500px;
+  animation: 3s fadeIn;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   
   visibility: hidden;
@@ -208,92 +235,90 @@ nav{
     visibility: visible;
     opacity: 1;
   }
-}
-
-.intro p{
-    
-    color: bisque;
-    line-height: 22px;
-}
-.manwaving{
-    border-radius: 50%;
-    top: 200px;
-    right: 500px;
-    animation: 3s fadeIn;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    
-    visibility: hidden;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      visibility: visible;
-      opacity: 1;
-    }
 
 }
 
 .img{
-    
-    width: fit-content;
-    height: 20%;
-    position: absolute;
-    top: 260px;
-    bottom: 20;
-    right: 100px;
+  
+  width: fit-content;
+  height: 20%;
+  position: absolute;
+  top: 260px;
+  bottom: 20;
+  right: 100px;
+}
+.socials{
+  padding-top: 50%;
+  padding-left: 7%;
+  animation: 3s fadeIn;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+
+visibility: hidden;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+.socials a{
+  font-size: 40px;
+  color: white;
+  margin: 0 5px;
 }
 
 
 
 
 .about{
-  padding-left: 560px; ;
+padding-left: 560px; ;
 
-    position: absolute;
-    padding-top: 889px;
-    color: orange;
-    font-size: xx-large;
+  position: absolute;
+  padding-top: 250px;
+  color: orange;
+  font-size: xx-large;
 }
 .about h1{
-  text-decoration: underline;
-  text-decoration-color: orange;
-  text-underline-offset: 10px;
+text-decoration: underline;
+text-decoration-color: orange;
+text-underline-offset: 25px;
 }
 .about h1 span{
-  color: white;
+color: white;
 }
 .aboutmeimage{
-  width: fit-content;
-  position: absolute;
-  padding-top: 50px;
-  padding-bottom: 500px;
-  padding-right: 500px;
-  left: 20px;
+width: fit-content;
+position: absolute;
+padding-top: 50px;
+padding-bottom: 500px;
+padding-right: 500px;
+left: 20px;
 }
 .aboutmetext{
-  
-  padding-top: 90px;
+
+padding-top: 90px;
 }
 .aboutmetext h2{
-  padding-top: 120px;
-  font-size: 40px;
-  color: orange;
+padding-top: 120px;
+font-size: 40px;
+color: orange;
 }
 .aboutmetext h3{
-  color: white;
-  font-size:x-large;
-  padding-top: 50px;
+color: white;
+font-size:x-large;
+padding-top: 50px;
 }
 .aboutmetext h3 span{
-  color:peachpuff;
+color:peachpuff;
 }
 .aboutmetext h3 span2{
-  color: lightsalmon;
+color: lightsalmon;
 }
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
