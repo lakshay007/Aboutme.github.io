@@ -120,38 +120,31 @@ nav{
   margin-left: 7%;
   margin-top: 15%;
 }
-
-
-.intro h1{
-
+.intro h1 {
+  font-size:10vw;
+  font-size: 50px;
   color: orange;
-  font-size: 80px;
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      margin: 0 auto; 
-      letter-spacing: .18em; 
-      animation: 
-        typing 3.15s steps(40, end),
-        blink-caret .75s step-end infinite;
-        
-    }
-    
-    
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-
-    }
-    
-    
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: orange; }
-    
-    
-  
+  width: 15.8ch;
+  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size:5vw
 }
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
 .intro h1 span{
   color: white;
   
@@ -160,10 +153,11 @@ nav{
   font-size: xx-large;
 }
 .intro h2{
+  font-size:2vw;
   color: bisque;
 
 animation: 3s fadeIn;
-animation-delay: 3s;
+animation-delay: 1s;
 animation-fill-mode: forwards;
 
 visibility: hidden;
@@ -222,7 +216,7 @@ visibility: hidden;
   top: 200px;
   right: 500px;
   animation: 3s fadeIn;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   
   visibility: hidden;
@@ -252,7 +246,7 @@ visibility: hidden;
   padding-top: 50%;
   padding-left: 7%;
   animation: 3s fadeIn;
-animation-delay: 3s;
+animation-delay: 1s;
 animation-fill-mode: forwards;
 
 visibility: hidden;
@@ -272,8 +266,6 @@ visibility: hidden;
   color: white;
   margin: 0 5px;
 }
-
-
 
 
 .about{
@@ -311,7 +303,7 @@ color: orange;
 }
 .aboutmetext h3{
 color: white;
-font-size:x-large;
+font: size 8vw;;
 padding-top: 50px;
 }
 .aboutmetext h3 span{
@@ -342,7 +334,7 @@ scroll-behavior: smooth;
   padding: .75rem 1.65rem;
   position: relative;
   text-align: center;
-  text-decoration: none #000000 solid;
+  text-decoration: none ;
   text-decoration-thickness: auto;
   width: 100%;
   max-width: 460px;
