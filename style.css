@@ -125,7 +125,7 @@ nav{
   font-size:10vw;
   font-size: 50px;
   color: orange;
-  width: 16ch;
+  width: 16.5ch;
   animation: typing 2s steps(19), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -239,9 +239,9 @@ visibility: hidden;
   width: fit-content;
   height: 20%;
   position: absolute;
-  top: 260px;
+  top: 400px;
   bottom: 20;
-  right: 100px;
+  right: 200px;
 }
 .socials{
   padding-top: 50%;
