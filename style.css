@@ -7,6 +7,7 @@
 body {
   width: 100%;
   background-color: black;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
@@ -124,7 +125,7 @@ nav{
   font-size:10vw;
   font-size: 50px;
   color: orange;
-  width: 15.8ch;
+  width: 16ch;
   animation: typing 2s steps(19), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
