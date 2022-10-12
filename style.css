@@ -275,6 +275,7 @@ visibility: hidden;
   font-size: xx-large;
 }
 .about h1{
+  font-size: 4.5vw;
 text-decoration: underline;
 text-decoration-color: orange;
 text-underline-offset: 25px;
@@ -290,19 +291,23 @@ padding-bottom: 500px;
 padding-right: 40px;
 left: 20px;
 }
+.aboutimg{
+  max-width: 100%;
+  height: auto;
+}
 .aboutmetext{
 
 padding-top: 90px;
 }
 .aboutmetext h2{
 padding-top: 120px;
-font-size: 40px;
+font-size: 4vw;
 color: orange;
 }
 .aboutmetext h3{
 color: white;
-font: size 8vw;;
-padding-top: 50px;
+font-size: 2.2vw;
+padding-top: 40px;
 }
 .aboutmetext h3 span{
 color:peachpuff;
