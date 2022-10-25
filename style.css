@@ -1016,6 +1016,7 @@ and (max-width : 480px) {
   font-size: 12vw;
   }
   .aboutmetext h3{
+    text-align: center;
     top: 80px;
   font-size: 6vw;
   height: 300%;
