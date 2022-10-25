@@ -1029,6 +1029,10 @@ and (max-width : 480px) {
     top: 3%;
     position: relative;
     right: 500px;
+    z-index: 1;
+  }
+  .contact a{
+    z-index: 1;
   }
   .button-53 {
     visibility: hidden;
