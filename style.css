@@ -1031,6 +1031,7 @@ and (max-width : 480px) {
     right: 500px;
   }
   .button-53 {
+    visibility: hidden;
     position: relative;
     background-color: #3DD1E7;
     border: 0 solid #E5E7EB;
