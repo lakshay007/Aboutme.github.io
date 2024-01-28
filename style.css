@@ -996,7 +996,7 @@ and (max-width : 480px) {
   
 }
 .aboutmetext{
-  top: 50%;
+  padding-top: 5%;
   left: 50%;
 
 }
